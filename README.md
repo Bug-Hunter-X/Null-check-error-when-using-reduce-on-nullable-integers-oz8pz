@@ -1,0 +1,2 @@
+# Dart Null Check Error in `reduce` Function
+This example demonstrates a common error when using the `reduce` function with lists containing nullable integers in Dart. The `reduce` function requires a binary operation, and when a null value is encountered, it'll throw an error because attempting to access a property on a null object throws an exception.  The solution shows how to safely handle potential null values using the `fold` method or conditional operators.
